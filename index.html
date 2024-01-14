@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DreamCars4Rent</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/ebb85a7eaf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100">
+        <div class="container">
+            <a class="navbar-brand no-hover" href="#"><i class="fa-solid fa-car-side green-element"></i> RENT<span
+                    class=" green-element">A</span>CAR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                    <a class="nav-link" href="#flota">flota</a>
+                    <a class="nav-link" href="#price">ceny</a>
+                    <a class="nav-link" href="#team">zespół</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="hero-img" id="home">
+        <div class="hero-txt text-center">
+            <h1 class="text-focus-in">Znajdz swoje wymażone auto</h1>
+            <p class="text-focus-in">Gdzie sportowy styl miesza się z klasyczną elegancją</p>
+            <a href="#team" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+        </div>
+        <div class="hero-shadow"></div>
+    </header>
+    <main>
+        <section id="aboutus" class="aboutus bg-light py-5">
+            <div class="container">
+                <h2 class="section-title"> o nas</h2>
+                <div class="underline"></div>
+                <div class="row">
+                    <div class="about-Us-Hover col-sm-6 col-md-3 text-center">
+                        <p><i class="fa-solid fa-mobile-screen"></i></p>
+                        <p class="aboutus-card-title mb-2">Dostępność</p>
+                        <p class="aboutus-card-text">Wygodne zamawianie poprzez aplikację dla stałych klientów</p>
+                    </div>
+                    <div class="about-Us-Hover col-sm-6 col-md-3 text-center">
+                        <p><i class="fa-regular fa-handshake"></i></p>
+                        <p class="aboutus-card-title mb-2">Jakość</p>
+                        <p class="aboutus-card-text">Szybkość i wygoda działania</p>
+                    </div>
+                    <div class="about-Us-Hover col-sm-6 col-md-3 text-center">
+                        <p><i class="fa-solid fa-crown"></i></p>
+                        <p class="aboutus-card-title mb-2">Niezależność</p>
+                        <p class="aboutus-card-text">Wszystkie auta są naszą własnością</p>
+                    </div>
+                    <div class="about-Us-Hover col-sm-6 col-md-3 text-center">
+                        <p><i class="fa-solid fa-arrow-trend-up"></i></p>
+                        <p class="aboutus-card-title mb-2">Profesjonalizm</p>
+                        <p class="aboutus-card-text">Elastyczność względem klientów</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="forYou-hero">
+            <div class="forYou-shadow">
+                <div class="container py-5">
+                    <h2 class="section-title">dla was</h2>
+                    <div class="underline"></div>
+                    <div class="content-box row">
+                        <div class=" forYou-hover col-sm-4 col-md-4 text-center">
+                            <p class="forYou-card-title mb-3">Zwierzęta</p>
+                            <p class="mb-2"><i class="fa-solid fa-paw"></i></p>
+                            <p class="forYou-card-text">Możliwość przewozu czworonogów</p>
+                        </div>
+                        <div class=" forYou-hover col-sm-4 col-md-4 text-center">
+                            <p class="forYou-card-title mb-3">Rabaty</p>
+                            <p class="mb-2"><i class="fa-solid fa-gift"></i></p>
+                            <p class="forYou-card-text">Dla stałych klientów rabaty nawet do 50%</p>
+                        </div>
+                        <div class="forYou-hover col-sm-4 col-md-4 text-center">
+                            <p class="forYou-card-title mb-3">przejrzystość</p>
+                            <p class="mb-2"><i class="fa-solid fa-hand-sparkles"></i></p>
+                            <p class="forYou-card-text">Minimum formalności oraz brak kaucji</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="flota" class="flota bg-dark">
+            <h2 class="section-title text-light">flota</h2>
+            <div class="underline mb-4"></div>
+            <div class="container">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/taipei-4861601_1920.jpg" alt="srebrny-mercedes">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">MERCEDES 2016r. CLA C117
+                                    COUPE AMG</p>
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            2.0 l benzyna</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 360 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 4.6 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 250 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/bmw-5665352_1920.jpg" alt="niebieskie-bmw">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">BMW 2020r. M2-COUPE
+                                    COMPETITION</p>
+
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            3.0 l benzyna</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 410 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 4.4 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 250 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/audi-3985578_1920.jpg" alt="białe-audi">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">AUDI 2019r. S5 COUPE
+                                    QUATTRO</p>
+
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            3.0 l diesel</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 345 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 4.8 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 250 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div id="carouselExampleFade2" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/jorgen-hendriksen-lX2YG5w4_gs-unsplash.jpg"
+                                alt="klasyczny ford Mustang 1966">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">Ford Mustang MY67 1966r.
+                                    Coupe</p>
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            6.4 l V8 benzyna</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 320 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 7.3 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 280 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/marcel-hoberg-dRhfv9IMktY-unsplash.jpg" alt=" białe PORSCHE 911 1990r.">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">PORSCHE 911 1990r. COUPE
+                                </p>
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            3.3 l benzyna</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 320 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 5.0 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 270 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/hayes-potter-moMmTIfdGa4-unsplash.jpg" alt="czerwone ferrari 1989r.">
+                            <div class="cars-bg">
+                                <p class="car-name fs-4 text-center text-uppercase text-light">Ferrari 328 1989r. </p>
+
+                                <div class="full-content-container">
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-droplet"></i></p>
+                                        <p class="mercedes parameters">Pojemność:
+                                            3.2 l V8 benzyna</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-horse"></i></p>
+                                        <p class="mercedes parameters">Moc maksymalna: 345 KM</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-gauge-high"></i></i>
+                                        </p>
+                                        <p class="mercedes parameters">Przyspieszenie 0-100 km/h: 6.4 s</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-2 text-center"><i class="fa-solid fa-wind"></i></p>
+                                        <p class="mercedes parameters">Prędkość maksymalna: 265 km/h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="price" class="price bg-dark">
+            <h2 class="section-title text-light">Cennik</h2>
+            <div class="underline mb-5"></div>
+            <div class="container">
+                <h3 class="text-center mb-4 text-uppercase text-light">Sportowe</h3>
+                <table class="table mb-5 text-uppercase">
+                    <thead>
+                        <tr>
+                            <th>Samochód</th>
+                            <th>Klasa</th>
+                            <th>Cena za dzień</th>
+                            <th>Cena za weekend</th>
+                            <th>Cena za tydzień</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MERCEDES CLA C117 COUPE AMG</td>
+                            <td>Sportowy</td>
+                            <td>300 PLN</td>
+                            <td>800 PLN</td>
+                            <td>2000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>BMW M2-COUPE COMPETITION</td>
+                            <td>Sportowy</td>
+                            <td>280 PLN</td>
+                            <td>750 PLN</td>
+                            <td>1900 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>AUDI S5 COUPE QUATTRO</td>
+                            <td>Sportowy</td>
+                            <td>260 PLN</td>
+                            <td>700 PLN</td>
+                            <td>1800 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 class="text-center mb-3 text-uppercase text-light">Klasyczne</h3>
+                <table class="table text-uppercase">
+                    <thead>
+                        <tr>
+                            <th>Samochód</th>
+                            <th>Klasa</th>
+                            <th>Cena za dzień</th>
+                            <th>Cena za weekend</th>
+                            <th>Cena za tydzień</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FORDM USTANG MY67 1966R. COUPE</td>
+                            <td>Klasyczny</td>
+                            <td>320 PLN</td>
+                            <td>850 PLN</td>
+                            <td>2100 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>PORSHE 911 1990R. COUPE</td>
+                            <td>Klasyczny</td>
+                            <td>300 PLN</td>
+                            <td>800 PLN</td>
+                            <td>2000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>FERRARI 328 1986r.</td>
+                            <td>Klasyczny</td>
+                            <td>280 PLN</td>
+                            <td>750 PLN</td>
+                            <td>1900 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="team" class="team py-4">
+            <h2 class="section-title text-light">team</h2>
+            <div class="underline mb-4"></div>
+
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/pexels-andrea-piacquadio-3771807.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Jan Kowalski</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                                    veritatis harum esse voluptates velit molestiae!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/pexels-tima-miroshnichenko-5439472.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Piotr Nowak</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                                    beatae consequuntur similique quod, id laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact py-4">
+            <h2 class="section-title text-light">kontakt</h2>
+            <div class="underline mb-4"></div>
+
+            <div class="container">
+                <div class="row text-center contact-us">
+
+                    <div class="col-sm-6 col-lg-4 contact-item text-light">
+                        <h3 class="py-4 text-uppercase">Warszawa</h3>
+                        <p class="fw-bold">Jan Kowalski</p>
+                        <p><a href="https://maps.app.goo.gl/Uyc5iMVwW1SanEgy5" target="_blank"><i
+                                    class="fa-solid fa-location-dot"></i></a> ul.Piłsudskiego 12</p>
+                        <p>02-704 Warszawa</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i> +48 500 100 100</p>
+                        <p><i class="fa-solid fa-at"></i> jan.kowalski@dc4r.com</p>
+                    </div>
+                    <div class=" col-sm-6 col-lg-4 contact-item text-light">
+                        <h3 class="py-4 text-uppercase">social media</h3>
+                        <div class="contact-us-icons">
+                            <a href="https://www.facebook.com/?locale=pl_PL" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/?lang=pl" target="_blank"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://pl.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 contact-item text-light">
+                        <h3 class="py-4 text-uppercase">Kraków</h3>
+                        <p class="fw-bold">Piotr Nowak</p>
+                        <p><a href="https://maps.app.goo.gl/xRnpUgUKrzBhStGV7" target="_blank"><i
+                                    class="fa-solid fa-location-dot"></i></a> ul.Sikorskiego 8</p>
+                        <p>31-115 Kraków</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i> +48 500 200 200</p>
+                        <p><i class="fa-solid fa-at"></i> piotr.nowak@dc4r.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-css text-center py-3 text-light mb-0"> | &copy; since 2021 | DC4R &#174; | </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
